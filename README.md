@@ -9,3 +9,7 @@
 Geleneksel `MBR` önyüklemesinde BIOS, seçilen diskin ilk 512 byte'lık sektörünü RAM'e yükler. Sektörün son iki byte'ı `0x55` ve `0xAA` imzasını taşıyorsa BIOS, işlemciye bu sektördeki kodu yürütmesi için kontrolü devreder. Böylece MBR kodu çalışmaya başlar.
 
 Bu mekanizma sayesinde işletim sisteminden bağımsız çalışabilen bir yazılım geliştirip derleyerek diskin ilk 512 byte'lık sektörüne yazabiliriz. BIOS bu sektörü yükleyip kodumuzu çalıştırdığında, herhangi bir işletim sistemine ihtiyaç duymadan kendi yazılımımızı başlatabiliriz. Bu proje, söz konusu önyükleme sürecini anlamak ve uygulamak amacıyla geliştirilmiştir.
+
+## Önerilen Kaynaklar
+
+[PC Boot Process](https://www.youtube.com/playlist?list=PLNneNQWa3Mbw)
